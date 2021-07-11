@@ -1,6 +1,9 @@
 public class PrintingEnumWithColor {
     void print()
     {
-        System.out.println(AdvancedEnum.COLOR.RED.getValue());
+        for(AdvancedEnum.COLOR color : AdvancedEnum.COLOR.values())
+        {
+            System.out.println(color.getValue());
+        }
     }
 }
