@@ -1,6 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        String array="Hello this is a test machine ";
-        new ReplaceSpaces().replace(array.toCharArray(),array.length());
+       /* int graph[][] = new int[][]{{0, 30, 0, 0, 0},
+                {0, 0, 20, 30, 100},
+                {0, 0, 0, 0, 5},
+                {0, 0, 0, 0, 5},
+                {0, 0, 0, 0, 0},
+        };
+        new DjikstrasAlgorithm().dijkstra(graph, 0);*/
+     //   new ScheduleJob(new int[]{7,1,7,1,7,1},3).MinimumSchedule();
+      //  new ScheduleJob(new int[]{6,5,4,3,2,1},2).MinimumSchedule();
+      //  new ScheduleJob(new int[]{11,111,22,222,33,333,44,444},6).MinimumSchedule();
+        char[][] board={{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+        new SUDOKU().solveSudoku(board);
     }
 }
