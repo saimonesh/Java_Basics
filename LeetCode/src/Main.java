@@ -7,6 +7,7 @@ public class Main {
                 {0, 0, 0, 0, 0},
         };
         new DjikstrasAlgorithm().dijkstra(graph, 0);*/
+    //    new ScheduleJob_2_DFS().findMin(new int[]{7,1,7,1,7,1},3);
      //   new ScheduleJob(new int[]{7,1,7,1,7,1},3).MinimumSchedule();
       //  new ScheduleJob(new int[]{6,5,4,3,2,1},2).MinimumSchedule();
       //  new ScheduleJob(new int[]{11,111,22,222,33,333,44,444},6).MinimumSchedule();
