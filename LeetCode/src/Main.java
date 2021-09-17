@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        new JobScheduler_LeetCode().leastInterval(new char[]{'A','A','A','A','A','A','B','C','D','E','F','G'},2);
+        new PriorityQueueImplementation_basic().testing();
+      //  new BeautifulNumbers_PAYPAL().solve(31,32);
+      //  new SpiralMatrixWithPattern(5,"UUDDLLRR").doSpiral();
+        /*char[][] board2={"CAA".toCharArray(),"AAA".toCharArray(),"BCD".toCharArray()};
+        new WordSearch().exist(board2,"AAB");*/
        /* int graph[][] = new int[][]{{0, 30, 0, 0, 0},
                 {0, 0, 20, 30, 100},
                 {0, 0, 0, 0, 5},
